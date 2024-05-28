@@ -13,7 +13,7 @@ data:
         lowercase: False
         max_sent_length: 100
         # a file with a vocabulary built before starting the training:
-        voc_file : "merged_vocab.txt"
+        voc_file : "merged_vocab_2000.txt"
         tokenizer_type: "subword-nmt"
         tokenizer_cfg:
             num_merges: 2000
@@ -24,14 +24,14 @@ data:
         lowercase: False
         max_sent_length: 100
         # a file with a vocabulary built before starting the training:
-        voc_file : "merged_vocab.txt"
+        voc_file : "merged_vocab_2000.txt"
         tokenizer_type: "subword-nmt"
         tokenizer_cfg:
             num_merges: 2000
             codes: "codes.bpe"
 
 testing:
-    beam_size: 3
+    beam_size: 10
     alpha: 1.0
 
 training:

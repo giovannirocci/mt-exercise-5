@@ -13,7 +13,7 @@ data:
         lowercase: False
         max_sent_length: 100
         # a file with a vocabulary built before starting the training:
-        voc_file : "merged_vocab.txt"
+        voc_file : "merged_vocab_3000.txt"
         tokenizer_type: "subword-nmt"
         tokenizer_cfg:
             num_merges: 3000
@@ -24,7 +24,7 @@ data:
         lowercase: False
         max_sent_length: 100
         # a file with a vocabulary built before starting the training:
-        voc_file : "merged_vocab.txt"
+        voc_file : "merged_vocab_3000.txt"
         tokenizer_type: "subword-nmt"
         tokenizer_cfg:
             num_merges: 3000
